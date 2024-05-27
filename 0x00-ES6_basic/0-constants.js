@@ -10,7 +10,8 @@ export function getTaskDescription() {
   export function getTaskSummary() {
     let taskSummary = 'For instance, when ';
     taskSummary += 'the value of a variable needs to be updated.';
-    taskSummary += ' ' + getFallbackMessage();
+    taskSummary += ` ${getFallbackMessage()}`;
   
     return taskSummary;
   }
+  
